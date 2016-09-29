@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: 3px dotted black;
+    padding: 10px;
+}
+
+.game-panel {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: gainsboro;
+}
+
+.game-panel h2 {
+  font-size: large;
+  background-color: crimson;
+  color: whitesmoke;
+}
+
+.operations {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.in-progress {
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  background-color: pink;
+}
+
+.you-lost {
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  background-color: red;
+}
+
+.you-won {
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  background-color: green;
+}
+
+.you-drew {
+  padding: 5px;
+  font-size: large;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.unplayed-cell {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    vertical-align: central;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}
+
+.played-cell {
+    display: table;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    background-color: pink;
+}
+
+.child {
+    display: table-cell;
+    vertical-align: middle;
+}
